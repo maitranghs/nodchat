@@ -62,3 +62,4 @@ typings/
 
 # customs
 package-lock.json
+config.json

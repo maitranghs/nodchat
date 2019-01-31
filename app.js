@@ -1,6 +1,9 @@
 var express = require('express')
 var app = express()
 
+require('./config/config.js')
+require('./db.js')
+
 // set the template engine
 app.set('view engine', 'ejs')
 
